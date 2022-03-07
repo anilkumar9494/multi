@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install anil kumar Dependencies') { 
         steps { 
-           sh 'npm install' 
+           sh 'mvn clean' 
         }
      }
      
