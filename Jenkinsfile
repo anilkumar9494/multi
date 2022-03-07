@@ -4,7 +4,7 @@ pipeline {
 
    stages {
    
-     stage('Install chintha Dependencies') { 
+     stage('Install chintha anil kumar Dependencies') { 
         steps { 
            sh 'npm install' 
         }
